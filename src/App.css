@@ -1,0 +1,189 @@
+body,
+html,
+main {
+  height: 100%;
+  margin: 0;
+}
+#root {
+  height: 100%;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  height: 100%;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100%;
+}
+
+.loading {
+  margin-top: 20px;
+}
+
+.controls {
+  top: 0;
+  left: 0;
+}
+
+.controls button {
+  margin: 0.3125rem;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login__container {
+  width: 18.75rem;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__form label {
+  margin-bottom: 0.625rem;
+}
+
+.login__username {
+  padding: 0.3125rem;
+  margin-top: 0.3125rem;
+}
+
+.login__button {
+  padding: 0.625rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.login__pet {
+  margin-left: 1.25rem;
+}
+
+.user__info {
+  top: 0;
+  padding: 0.625rem;
+  right: 1.25rem;
+}
+
+.status {
+  margin-top: 0.625rem;
+  color: red;
+}
+
+.chat__room__content {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  max-width: 62.5rem;
+}
+
+.chat__owner {
+  position: relative;
+  right: 0.3125rem;
+  bottom: 0.125rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(1.875rem);
+}
+
+.add__chat__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.25rem;
+}
+
+.add__chat {
+  padding: 0.3125rem;
+  margin-right: 0.625rem;
+}
+
+.add__chat__button {
+  padding: 0.625rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.chats {
+  margin-top: 1.25rem;
+}
+
+.chat__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.chat__message {
+  padding: 0.625rem;
+  margin-bottom: 0.3125rem;
+  margin-left: 5rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 5.3125rem;
+}
+
+.chat__owner {
+  margin-bottom: 0.3125rem;
+}
+
+.chat__controls {
+  margin-top: 0.3125rem;
+}
+
+.delete__chat__button {
+  padding: 0.3125rem;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.pet__list {
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pet {
+  border: 0.0625rem solid #ccc;
+  padding: 0.625rem;
+  margin-bottom: 0.625rem;
+ 
+  color: #dc3545;
+}
+
+.pet__control {
+  margin-top: 0.625rem;
+}
+
+.pet__happiness {
+  font-weight: bold;
+}
+
+.pet__representation {
+  font-size: 1.25rem;
+}
+
+.discover {
+  text-align: center;
+}
+
+.pet-card {
+  display: inline-block;
+  margin: 0.625rem;
+}

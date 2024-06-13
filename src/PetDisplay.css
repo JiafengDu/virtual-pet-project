@@ -1,0 +1,30 @@
+.pet {
+    border: 0.0625rem solid #ccc;
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
+  }
+  
+  .pet__representation {
+    font-size: 1.25rem;
+  }
+  
+  .pet__control {
+    margin-top: 0.625rem;
+  }
+  
+  .pet__pet__button {
+    margin-left: 0.625rem;
+  }
+  
+  .pet__sad {
+    color: #ff0000;
+  }
+  
+  .pet__okay {
+    color: #ffcc00;
+  }
+  
+  .pet__happy {
+    color: #00cc00;
+  }
+  
